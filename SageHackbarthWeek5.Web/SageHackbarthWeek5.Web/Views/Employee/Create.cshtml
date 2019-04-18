@@ -1,0 +1,44 @@
+﻿@model SageHackbarthWeek5.Web.Models.CreateEmployeeModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+<div>
+    <form>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.Name)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.Name)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.Email)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.Email)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.Role)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.Role)
+            </div>
+        </div>
+        <div class="col-md-3">
+            <button class="btn btn-secondary" type="submit">Save</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
+
