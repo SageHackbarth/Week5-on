@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -11,6 +8,13 @@ namespace SageHackbarthWeek5.Web
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+        /*protected void Application_Error(object sender, EventArgs e)
+        {
+            Exception ex = Server.GetLastError();
+            Server.ClearError();
+            Response.Redirect("Error.cshtml");
+        } */
+
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();

@@ -11,11 +11,6 @@ namespace SageHackbarthWeek5.Web.Controllers
 	{
 		private readonly IEmployeeOrchestrator _employeeOrchestrator;
 
-        public EmployeeController()
-        {
-
-        }
-
 		public EmployeeController(IEmployeeOrchestrator employeeOrchestrator)
 		{
 			_employeeOrchestrator = employeeOrchestrator;
