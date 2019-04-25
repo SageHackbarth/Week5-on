@@ -57,6 +57,10 @@
     <Compile Include="Orchestrators\EmployeeOrchestrator.cs" />
     <Compile Include="Orchestrators\Interface\IEmployeeOrchestrator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DateTimeService.cs" />
+    <Compile Include="Services\DOBService.cs" />
+    <Compile Include="Services\Interfaces\IDateTimeService.cs" />
+    <Compile Include="Services\Interfaces\IDOBService.cs" />
     <Compile Include="ViewModels\EmployeeViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
